@@ -1,0 +1,76 @@
+/*General Body CSS*/
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Nav Bar CSS*/
+.navbar-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5vh;
+    z-index: 1000;
+  }
+  
+.navbar-li {
+    float: left;
+}
+
+.navbar-li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.navbar-li a:hover:not(.active) {
+    background-color: rgb(23, 104, 224);
+}
+  
+.active {
+    background-color: #04AA6D;
+}
+
+/*Content CSS*/
+.header{
+    text-align: center;
+    font-size: 5em;
+}
+
+.text{
+    text-align: center;
+    padding: 30px;
+}
+
+ .section{
+    
+    color: white;
+    text-align: center;
+    position: relative;
+    height: 100vh;
+}
+
+.container{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#about{
+    background-color: rgb(92, 92, 248);
+}
+
+#rules{
+    background-color: rgb(96, 184, 96);
+}
